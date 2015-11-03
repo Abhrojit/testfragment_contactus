@@ -150,6 +150,8 @@ public class Main_activity extends AppCompatActivity
         swapFragments(fragment);
     }
 
+    //Changes are made here
+
     public void onBtnClick(View view){
         inputLayoutName = (TextInputLayout) findViewById(R.id.input_layout_name);
         inputLayoutPhone = (TextInputLayout) findViewById(R.id.input_layout_phoneno);
